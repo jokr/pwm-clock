@@ -1,0 +1,21 @@
+{
+  "name": "pwm-clock",
+  "version": "1.0.0",
+  "description": "A pwm clock written in C and wrapped as a Node.js module.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "keywords": [
+    "galileo",
+    "pwm",
+    "clock"
+  ],
+  "author": "Joel Krebs <joel.krebs@gmail.com> (www.aleaiactaest.ch)",
+  "license": "MIT",
+  "gypfile": true
+}
